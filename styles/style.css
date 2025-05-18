@@ -269,13 +269,6 @@ button {
   margin-bottom: 11px;
 }
 
-.main__section-article {
-  display: grid;
-  grid-column: 2 / span 2;
-  margin-top: 20px;
-  row-gap: 20px;
-}
-
 @media (width <= 400px) {
   .main {
     margin: 40px 10px 0px 10px;
