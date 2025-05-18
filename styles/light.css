@@ -5,6 +5,13 @@
 */
 
 :root.theme-light {
+  --bg-image-page: url(../images/cover-image-light.png);
+  --accent-color-header:rgba(53, 52, 48, 1);
+  --accent-color:rgba(255, 141, 203, 1);
+  --border-color-button:rgba(50, 49, 45, 0.4);
+  --color-title:rgba(255, 194, 230, 1);
+  --color-text:rgba(53, 52, 48, 1);
+  --color-text-container: rgba(53, 52, 48, 1);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -13,4 +20,29 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+.theme-light .header__rec{
+  display: none;
+} 
+
+.theme-light .header__theme-menu-button_type_dark{
+  border: none;
+}
+
+
+@media(prefers-color-scheme:light){
+  :root{
+    --bg-image-page:url(../images/cover-image-light.png);
+    --accent-color-header:rgba(53, 52, 48, 1);
+    --accent-color:rgba(255, 141, 203, 1);
+    --border-color-button: rgba(50, 40, 45, 0.4);
+    --color-title:rgba(255, 194, 230, 1);
+    --main-title:rgba(53, 52, 48, 1);
+    --color-text:rgba(53, 52, 48, 1);
+    --color-text-container:rgba(53, 52, 48, 1);
+     }
+     .header__rec .header__theme-menu-button_type_dark{
+      display: none;
+     }
+  
 }

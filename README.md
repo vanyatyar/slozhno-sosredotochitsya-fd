@@ -1,1 +1,1 @@
-https://github.com/vanyatyar/slozhno-sosredotochitsya-fd#
+https://github.com/vanyatyar/slozhno-sosredotochitsya-fd
