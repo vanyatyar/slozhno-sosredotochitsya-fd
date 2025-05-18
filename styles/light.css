@@ -21,17 +21,17 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
-.theme-light .header__rec{
+.theme-light .header__rec {
   display: none;
 } 
 
-.theme-light .header__theme-menu-button_type_dark{
+.theme-light .header__theme-menu-button_type_dark {
   border: none;
 }
 
 
-@media(prefers-color-scheme:light){
-  :root{
+@media(prefers-color-scheme:light) {
+  :root {
     --bg-image-page:url(../images/cover-image-light.png);
     --accent-color-header:rgba(53, 52, 48, 1);
     --accent-color:rgba(255, 141, 203, 1);
@@ -41,7 +41,7 @@
     --color-text:rgba(53, 52, 48, 1);
     --color-text-container:rgba(53, 52, 48, 1);
      }
-     .header__rec .header__theme-menu-button_type_dark{
+     .header__rec .header__theme-menu-button_type_dark {
       display: none;
      }
   
