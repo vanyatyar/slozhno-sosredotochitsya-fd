@@ -5,6 +5,7 @@
 */
 
 :root.theme-dark {
+
   --accent-color: rgba(255, 0, 112, 1);
   --accent-color-footer: rgba(255, 0, 112, 1);
   --accent-color-header: rgba(255, 0, 112, 1);
