@@ -2,7 +2,8 @@
 .page {
   font-weight: normal;
   font-size: var(--font-size);
-  background-color: var(--bg-image-page);
+  background-image: var(--bg-image-page);
+  background-color: var(--bg-color-page);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -168,6 +169,7 @@ button {
 
   .section-title {
     max-width: 355px;
+    margin-bottom: 0px;
 
   }
 }

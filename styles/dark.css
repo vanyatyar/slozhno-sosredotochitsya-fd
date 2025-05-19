@@ -14,6 +14,7 @@
   --color-text: rgba(0, 0, 40, 1);
   --main-title: rgba(255, 0, 112, 1);
   --bg-image-page: url(../images/cover-image-dark.png);
+  --bg-color-page: #000028;
   --padding-mobile: 10px;
   --padding-tablet-desk: 20px;
   --padding-tablet-desk-right: 29px;
