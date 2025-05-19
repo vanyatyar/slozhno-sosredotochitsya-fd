@@ -229,7 +229,6 @@ button {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .section-text {
@@ -295,6 +294,10 @@ button {
   .what {
     display: block;
   }
+
+  .section__sub-title-ves {
+  margin-top: 18px;
+}
 }
 
 @media (width = 1024px) {
@@ -400,7 +403,6 @@ button {
 .footer {
   position: relative;
   height: 100vh;
-  min-height: 668px;
   margin-top: 60px;
 }
 
@@ -417,12 +419,11 @@ button {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 @media (width<=400px) {
-  .title {
-    top: 52%;
-    margin: 0;
-  }
   .footer {
-    margin: 0;
+   margin-top: 40px;
+  }
+  .title {
+    top: 50%;
   }
 }
 
