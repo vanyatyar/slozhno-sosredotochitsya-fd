@@ -13,6 +13,7 @@
   --border-color-button: rgba(255, 0, 112, 0.4);
   --color-title: rgba(219, 0, 255, 1);
   --color-text: rgba(0, 0, 40, 1);
+  --main-title: rgba(255, 0, 112, 1);
   --bg-image-page: url(../images/cover-image-dark.png);
   --padding-mobile: 10px;
   --padding-tablet-desk: 20px;
