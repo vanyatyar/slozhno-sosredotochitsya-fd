@@ -2,7 +2,6 @@
 .page {
   font-weight: normal;
   font-size: var(--font-size);
-  color: var(--font-color);
   background-image: var(--bg-image-page);
   background-position: center;
   background-size: cover;
@@ -202,7 +201,7 @@ button {
 .main__section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
   column-gap: 20px;
 }
 
@@ -211,6 +210,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .main__section-article {
@@ -228,7 +228,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
-  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .section-text {
@@ -265,7 +265,7 @@ button {
   color: var(--color-text);
   font-weight: 400;
   font-size: 18px;
-  margin-bottom: 11px;
+  margin-top: 0px;
 }
 
 @media (width <= 400px) {
@@ -314,7 +314,7 @@ button {
   grid-column: 1/-1;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 18px 0 0 0;
+  padding: 29px 0 0 0;
   width: 100%;
 }
 
@@ -405,7 +405,7 @@ button {
 
 .title {
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "IBM Plex Mono", monospace;
