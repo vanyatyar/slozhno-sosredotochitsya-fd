@@ -7,13 +7,12 @@
     <meta name="color-scheme" content="dark light" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/light.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/globals.css">
-  <link rel="icon" href="./images/favicon.svg" />
+    <link rel="icon" href="./images/favicon.svg" />
     <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -45,15 +44,15 @@
         </ul>
       </nav>
       <h1 class="header__title">no focus</h1>
-      <h3 class="section-title">
+      <p class="section-title">
         Что делать, когда не можешь делать ничего<br />
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </h3>
+      </p>
     </header>
     <main class="main">
       <section class="main__section">
         <h2 class="main__section-title">Почему сосредоточиться так сложно</h2>
-        <article class="main__section-article">
+        <div class="main__section-article">
           <article class="main__section-block">
             <h3 class="section__sub-title">Многозадачность</h3>
             <p class="section-text">
@@ -81,51 +80,46 @@
               отвлекаешься, тем больше удовольствия получаешь.
             </p>
           </article>
-        </article>
+        </div>
       </section>
       <section class="main__section">
         <h2 class="main__section-title">Что снижает концентрацию внимания?</h2>
-        <div class="what">
-          <article class="main__section-article">
-            <article class="main__section-block">
-              <h3 class="section__sub-title section__sub-title-what">
-                Многозадачность
-              </h3>
-              <p class="section-text">
-                Как концентрация может снижаться из-за… концентрации? Любая
-                стрессовая ситуация (и резко меняющийся мир в целом) заставляет
-                наш мозг постоянно «сканировать» окружающую среду на предмет
-                опасности. Например, читать новости вместо работы. Но быть
-                собранными всё время — невозможно. Концентрация — мышца, и она
-                может не выдержать, если не давать ей отдохнуть.
-              </p>
-            </article>
-            <article class="main__section-block">
-              <h3 class="section__sub-title">Еда</h3>
-              <p class="section-text">
-                «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
-                доставляют в мозг энергию и помогают ему лучше работать. Но
-                уходит эта энергия также быстро, как и приходит. А мы в
-                результате попадаем на «углеводные качели»: как только действие
-                «быстрых углеводов» заканчивается, мы чувствуем усталость и
-                сонливость. И хотим ещё больше быстрых углеводов.
-              </p>
-            </article>
-            <article class="main__section-block">
-              <h3 class="section__sub-title section__sub-title-what">
-                Гаджеты
-              </h3>
-              <p class="section-text">
-                Да-да, это та самая ситуация, когда на экране ноутбука — код, в
-                наушниках — подкаст, а на компьютере фоном — ещё и видео с
-                забавными утятами. В результате мозг пытается переключиться с
-                одной задачи на другую — и просто не может. А чтобы вернуться к
-                состоянию полной концентрации, человеку в среднем нужно 20
-                минут. Вот и получается, что чем больше времени мы проводим в
-                гаджетах, тем больше времени затем нужно, чтобы вернуться к
-                работе.
-              </p>
-            </article>
+        <div class="main__section-article what">
+          <article class="main__section-block">
+            <h3 class="section__sub-title">
+              Многозадачность
+            </h3>
+            <p class="section-text">
+              Как концентрация может снижаться из-за… концентрации? Любая
+              стрессовая ситуация (и резко меняющийся мир в целом) заставляет
+              наш мозг постоянно «сканировать» окружающую среду на предмет
+              опасности. Например, читать новости вместо работы. Но быть
+              собранными всё время — невозможно. Концентрация — мышца, и она
+              может не выдержать, если не давать ей отдохнуть.
+            </p>
+          </article>
+          <article class="main__section-block">
+            <h3 class="section__sub-title">Еда</h3>
+            <p class="section-text">
+              «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
+              доставляют в мозг энергию и помогают ему лучше работать. Но уходит
+              эта энергия также быстро, как и приходит. А мы в результате
+              попадаем на «углеводные качели»: как только действие «быстрых
+              углеводов» заканчивается, мы чувствуем усталость и сонливость. И
+              хотим ещё больше быстрых углеводов.
+            </p>
+          </article>
+          <article class="main__section-block">
+            <h3 class="section__sub-title">Гаджеты</h3>
+            <p class="section-text">
+              Да-да, это та самая ситуация, когда на экране ноутбука — код, в
+              наушниках — подкаст, а на компьютере фоном — ещё и видео с
+              забавными утятами. В результате мозг пытается переключиться с
+              одной задачи на другую — и просто не может. А чтобы вернуться к
+              состоянию полной концентрации, человеку в среднем нужно 20 минут.
+              Вот и получается, что чем больше времени мы проводим в гаджетах,
+              тем больше времени затем нужно, чтобы вернуться к работе.
+            </p>
           </article>
         </div>
       </section>
@@ -134,15 +128,14 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article class="main__section-article">
+        <div class="main__section-article">
+          <h3 class="section__sub-title">
+            5 простых (на самом деле не очень) советов
+          </h3>
           <article class="main__section-block">
-            <h3 class="section__sub-title">
-              5 простых (на самом деле не очень) советов
-            </h3>
-
-            <h3 class="section__sub-title section__sub-title-ves">
+            <h4 class="section__sub-title section__sub-title-lite">
               Представьте небо и облака
-            </h3>
+            </h4>
             <p class="section-text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -155,9 +148,9 @@
             </p>
           </article>
           <article class="main__section-block">
-            <h3 class="section__sub-title section__sub-title-ves">
+            <h4 class="section__sub-title section__sub-title-lite">
               Включите музыку
-            </h3>
+            </h4>
             <p class="section-text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -166,9 +159,9 @@
             </p>
           </article>
           <article class="main__section-block">
-            <h3 class="section__sub-title section__sub-title-ves">
+            <h4 class="section__sub-title section__sub-title-lite">
               Прогуляйтесь
-            </h3>
+            </h4>
             <p class="section-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a href="" class="section-link">показал</a>, что созерцание
@@ -180,9 +173,9 @@
             </p>
           </article>
           <article class="main__section-block">
-            <h3 class="section__sub-title section__sub-title-ves">
+            <h4 class="section__sub-title section__sub-title-lite">
               Хорошо ешьте
-            </h3>
+            </h4>
             <p class="section-text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
@@ -191,7 +184,7 @@
             </p>
           </article>
           <article class="main__section-block">
-            <h3 class="section__sub-title section__sub-title-ves">Читайте</h3>
+            <h4 class="section__sub-title section__sub-title-lite">Читайте</h4>
             <p class="section-text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -199,37 +192,37 @@
               несколько часов и круто тренирует направленное внимание.
             </p>
           </article>
-        </article>
+        </div>
       </section>
       <section class="card">
-        <h2 class="card-title">А можно в картинках?</h2>
+        <h2 class="section__sub-title">А можно в картинках?</h2>
         <img
           class="card__picture sunset"
-          src="../images/sunset.png"
+          src="./images/sunset.png"
           alt="Солнце на закате в горах"
           loading="lazy"
         />
         <img
           class="card__picture icecrem"
-          src="../images/ice-cream.png"
+          src="./images/ice-cream.png"
           alt="Чашка мороженного"
           loading="lazy"
         />
         <img
           class="card__picture tape"
-          src="../images/tape.png"
+          src="./images/tape.png"
           alt="Аудиокассета"
           loading="lazy"
         />
         <img
           class="card__picture books"
-          src="../images/books.png"
+          src="./images/books.png"
           alt="Стопка книг"
           loading="lazy"
         />
         <img
           class="card__picture street"
-          src="../images/street.png"
+          src="./images/street.png"
           alt="Пустая улица"
           loading="lazy"
         />
@@ -238,5 +231,6 @@
     <footer class="footer decorated-zone">
       <h1 class="title">focus</h1>
     </footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

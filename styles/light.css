@@ -27,7 +27,7 @@
   display: none;
 } 
 
-.theme-light .header__theme-menu-button_type_dark {
+.theme-light {
   border: none;
 }
 
@@ -44,7 +44,7 @@
     --color-text:rgba(53, 52, 48, 1);
     --color-text-container:rgba(53, 52, 48, 1);
      }
-     .header__rec .header__theme-menu-button_type_dark {
+     .header__rec {
       display: none;
      }
   
