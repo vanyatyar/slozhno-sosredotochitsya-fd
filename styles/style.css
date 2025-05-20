@@ -272,12 +272,12 @@ border-bottom: 1px solid var(--accent-text-container);
 @media (width <= 400px) {
   .main {
     display: block;
-    margin: 37px 10px 0px 10px;
+    margin: 40px 10px 0px 10px;
   }
 
   .main__section {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
   }
 
   .main__section-title {
