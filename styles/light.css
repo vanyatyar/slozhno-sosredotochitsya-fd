@@ -27,9 +27,14 @@
   display: none;
 } 
 
-.theme-light {
-  border: none;
+/*.theme-light .header__theme-menu-button_type_light {
+  display: flex;
 }
+.theme-light .header__theme-menu-item {
+  border: none;
+}*/
+
+
 
 
 @media(prefers-color-scheme:light) {
@@ -38,7 +43,7 @@
     --bg-color-page: #FFF1F7;
     --accent-color-header:rgba(53, 52, 48, 1);
     --accent-color:rgba(255, 141, 203, 1);
-    --border-color-button: rgba(50, 40, 45, 0.4);
+    --border-color-button: rgba(53, 52, 48, 0.4);
     --color-title:rgba(255, 194, 230, 1);
     --main-title:rgba(53, 52, 48, 1);
     --color-text:rgba(53, 52, 48, 1);

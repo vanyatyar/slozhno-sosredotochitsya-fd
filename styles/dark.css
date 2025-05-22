@@ -15,10 +15,7 @@
   --main-title: rgba(255, 0, 112, 1);
   --bg-image-page: url(../images/cover-image-dark.png);
   --bg-color-page: #000028;
-  --padding-tablet-desk: 20px;
-  --padding-tablet-desk-right: 29px;
   --color-text-container: rgba(241, 178, 206, 1);
-  --font-family-general: "IBM Plex Mono", monospace;
 }
 
 .theme-dark {
@@ -26,6 +23,8 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
+
 .theme-dark .header__rec {
   display: flex;
 }
+
