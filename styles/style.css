@@ -22,11 +22,6 @@
   letter-spacing: 0px;
 }
 
-.header__theme-menu-button_active {
-  white-space: nowrap;
-  color: var(--accent-color);
-}
-
 .header__theme-menu {
   justify-self: end;
   align-self: center;
@@ -228,7 +223,7 @@ button {
 }
 
 .section-text {
-  margin-top: 9px;
+  margin-top: 10px;
   font-size: 18px;
   line-height: 23.4px;
   width: 400;
