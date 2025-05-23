@@ -386,33 +386,23 @@ button {
 .footer {
   position: relative;
   margin-top: 60px;
+  height: 100vh;
+  display: flex; 
+  align-items: center; 
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 83%;
   color: var(--color-title);
   text-shadow: 2px 2px 0 var(--accent-color-footer);
+  
 }
 
 @media (width<=500px) {
   .footer {
     margin-top: 40px;
-  }
-
-  .title {
-    top: 50%;
-  }
-}
-
-@media (width>=1000px) {
-  .title {
-    top: 50%;
   }
 }
