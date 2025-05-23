@@ -387,7 +387,7 @@ button {
   position: relative;
   margin-top: 60px;
   height: 100vh;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -398,7 +398,6 @@ button {
   line-height: 83%;
   color: var(--color-title);
   text-shadow: 2px 2px 0 var(--accent-color-footer);
-  
 }
 
 @media (width<=500px) {
