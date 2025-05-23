@@ -385,13 +385,14 @@ button {
 
 .footer {
   position: relative;
+  display: flex;
   margin-top: 60px;
   height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .title {
+  display: flex;
+  align-items: center;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
